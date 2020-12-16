@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import { useState } from 'react';
 import { Button, LinearProgress } from '@material-ui/core';
 import { RiUpload2Fill } from "react-icons/ri";

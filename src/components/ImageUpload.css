@@ -1,0 +1,10 @@
+.ImageUpload {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+}
+
+.ImageUpload > input:nth-child(2) {
+  margin: 10px 0;
+  padding: 10px;
+}

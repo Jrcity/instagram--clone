@@ -1,0 +1,31 @@
+{
+  "trailingComma": "all",
+  "tabWidth": 2,
+  "singleQuote": true,
+  "endOfLine": "crlf",
+  "overrides": [
+      {
+          "files": "*.js",
+            "options": {"parser": "flow"}
+      }, 
+      {
+          "files": "*.jsx",
+            "options": {"parser": "babel-flow"}
+      }, 
+      {
+          "files": "*.html",
+            "options": {"parser": "html"}
+
+      },
+      {
+          "files": "*.css",
+            "options": {"parser": "css"}
+
+      },
+      {
+          "files": "*.json",
+            "options": {"parser": "json5"}
+
+      }
+  ]
+}

@@ -1,0 +1,15 @@
+.Header {
+  background-color: #fff;
+  padding: 20px;
+  position: sticky;
+  border-bottom: 1px solid #d3d3d3;
+  top: 0;
+  z-index: 99;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Header__image {
+  object-fit: contain;
+}

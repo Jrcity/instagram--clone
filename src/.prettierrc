@@ -6,7 +6,7 @@
   "overrides": [
       {
           "files": "*.js",
-            "options": {"parser": "flow"}
+            "options": {"parser": "babel-flow"}
       }, 
       {
           "files": "*.jsx",

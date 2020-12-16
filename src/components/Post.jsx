@@ -6,9 +6,14 @@ import { IoBookmarkOutline, IoChatbubbleOutline, IoHeartOutline, IoPaperPlaneOut
 import { useEffect, useState } from 'react';
 import { db } from '../config/firebase';
 
+
 function Post({avatar, imgSrc, username, user, caption, postId }) {
+
+   
+
     const [comment, setComment] = useState('');
     const [comments, setComments] = useState([]);
+
     useEffect(()=> {
 
         var unsubscribe;
@@ -53,8 +58,8 @@ function Post({avatar, imgSrc, username, user, caption, postId }) {
                 </IconButton>
             </div>
             <div className="Post__body">
+                
                 <img className={'Post__image'} src={imgSrc} alt={'img'} />
-               
             </div>
             <div className={'Post__footer'}>
                 <div className="Post__footerIcons">

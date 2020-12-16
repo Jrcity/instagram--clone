@@ -191,7 +191,7 @@ function App() {
           {user?.displayName ? (
             <ImageUpload username={user.displayName} />
           ) : (
-            <h4>Login to upload</h4>
+            <h4>Login to upload images.</h4>
           )}
         </div>
         <div className={'App__bodyRight'}>

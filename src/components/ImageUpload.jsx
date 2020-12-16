@@ -51,7 +51,7 @@ function ImageUpload({username}) {
         <div className={'ImageUpload '}>
             <LinearProgress variant={'buffer'} value={progress} valueBuffer={Math.round(Math.random() + progress)} />
             <input type="text" placeholder={'Enter a caption...'} value={caption} onChange={e => setCaption(e.target.value)} />
-            <input type="file" onChange={handleChange} />
+            <input type="image" onChange={handleChange} />
             <Button onClick={handleUpload}>
                 {`Upload `}<RiUpload2Fill size={'1.8rem'} />
             </Button>
